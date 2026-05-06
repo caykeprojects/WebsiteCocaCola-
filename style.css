@@ -63,7 +63,7 @@ header .navigation li a{
     color: #fff;
     text-decoration: none;
     font-size: 19px;
-    front-weight: 500;
+    font-weight: 500;
     margin-left: 100px;
 }
 
@@ -139,4 +139,32 @@ header .navigation li a{
 .Icons li a:hover{
     background: #e51e2a;
     transform: translateY(-10px);
+}
+
+.Icons li a img{
+   transform: scale(0.5);
+   filter: invert(1);
+}
+
+/* Estilização para a imagens */
+.Imagem{
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+}
+.Imagem img{
+    max-width: 150px;
+}
+
+.Imagem .img1{
+    transform: rotate(-15deg);
+}
+.Imagem .img2{
+    transform: rotate(5deg);
+}
+.Imagem .img3{
+    transform: rotate(15deg);
+}
+.Imagem .img4{
+    transform: rotate(-15deg);
 }
